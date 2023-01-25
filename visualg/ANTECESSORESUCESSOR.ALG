@@ -6,20 +6,13 @@ Var
 
 
 Inicio
-      Escreva("Digite um número: ")
+      Escreva("Digite um nÃºmero: ")
       leia(N)
       
       antecessor <- N-1
       sucessor <- N+1
       
-      Escreval(" O antecessor de ", N, " é", antecessor)
-      Escreval(" O sucessor de ", N, " é", sucessor)
+      Escreval(" O antecessor de ", N, " Ã©", antecessor)
+      Escreval(" O sucessor de ", N, " Ã©", sucessor)
       
-      
-      
-
-      
-
-
-// Exercicio 05
 Fimalgoritmo
