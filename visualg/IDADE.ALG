@@ -1,16 +1,30 @@
-Algoritmo "Idade"
+Algoritmo "idades"
 
 Var
-    ano_atual, ano_nasc, idade: inteiro
 
+   nome1: caractere
+   nome2: caractere
+   idade1: inteiro
+   idade2: inteiro
+   media: real
 Inicio
-       Escreva("Em que ano nós estamos: ")
-       leia(ano_atual)
-       Escreva("Em que ano eu nasci: ")
-       leia(ano_nasc)
-       
-       idade <- ano_atual - ano_nasc
-       
-       Escreva("Minha idade é: ", idade, " anos ")
+
+      escreval("Dados da primeira pessoa:")
+      escreva("Nome: ")
+      leia(nome1)
+      escreva("Idade: ")
+      leia(idade1)
+
+      escreval("Dados da segunda pessoa: ")
+      escreva("Nome: ")
+      leia(nome2)
+      escreva("Idade: ")
+      leia(idade2)
+      
+      media <- (idade1 + idade2) / 2
+      escreva("A idade média de ", nome1, " e ", nome2, " é de ", media, " anos")
+
+      
+
 
 Fimalgoritmo

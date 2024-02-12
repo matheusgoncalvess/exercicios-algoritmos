@@ -1,22 +1,19 @@
 Algoritmo "soma"
-
 Var
-   num1, num2: inteiro
-   valor: inteiro
+
+   x, y, soma: inteiro
+
 
 
 Inicio
-    Escreva("Digite um valor: ")
-    leia(num1)
-    Escreva("Digite outro valor: ")
-    leia(num2)
-    
-    valor <- num1 + num2
-    
-    Escreva(" A soma entre", num1, " e ", num2, " é igual a ", valor)
 
-     
-     // Exercicio 04
-
+      escreva("Digite o valor de X: ")
+      leia(x)
+      escreva("Digite o valor de Y: ")
+      leia(y)
+      
+      soma <- x + y
+      
+      escreva("SOMA =", soma)
 
 Fimalgoritmo
